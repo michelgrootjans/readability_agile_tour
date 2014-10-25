@@ -2,4 +2,5 @@ source 'https://rubygems.org'
 
 gem 'rspec'
 gem 'autotest-standalone'
+gem 'rspec-autotest'
 gem 'autotest-growl'
