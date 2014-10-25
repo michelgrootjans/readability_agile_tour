@@ -12,8 +12,3 @@ def meets_criteria num
   end
   criteria.find_all{|c| c[1]}.map{|c| c[0]}
 end
-
-num = ARGV[0].to_i
-meets_criteria(num).each do |i|
-  puts "#{i} meets criteria"
-end
