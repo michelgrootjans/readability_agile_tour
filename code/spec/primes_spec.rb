@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'criteria'
+require 'primes'
 
 describe "a list of prime numbers" do
   context "up to 1" do
